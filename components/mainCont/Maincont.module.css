@@ -1,0 +1,4 @@
+.maincont{
+    display: flex;
+    flex-direction: column;
+}
