@@ -5,6 +5,7 @@ import Navmobile from "../../components/navMobile/NavMobile";
 import SideL from "../../components/sideL/SideL";
 import SideR from "../../components/sideR/SideR";
 import styles from "../../styles/Home.module.css";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <MainContent />
       <SideL />
       <SideR />
+      <Script src="/" />
     </div>
   );
 }
