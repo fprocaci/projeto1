@@ -1,0 +1,40 @@
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 34.27px;
+  height: 195.35px;
+  top: 739px;
+  left: 47px;
+
+  .socialIcons_links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 17px;
+
+    width: 14.27px;
+    height: 175.35px;
+    opacity: 0.3;
+  }
+}
+
+.socialIconsMobile {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 83px;
+
+  .socialIconsLinksMobile {
+    width: 162px;
+    display: flex;
+    align-items: flex-start;
+    gap: 17px;
+  }
+}

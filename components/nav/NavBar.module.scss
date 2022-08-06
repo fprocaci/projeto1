@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap'), url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+.navbarLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 0;
+    gap: 12px;
+
+    position: absolute;
+    width: 250px;
+    height: 18px;
+    left: 0px;
+    top: 785px;
+
+    transform: rotate(-90deg);
+
+    a {
+        height: 18px;
+        font-family: 'Mulish', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #000000;
+    }
+}
+
+.navbarRight {
+    height: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    margin-right: 109px;
+    margin-top: 67px;
+
+    a {
+        height: 18px;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 834.23px) {
+    .navbarRight {
+        display: none;
+    }
+}

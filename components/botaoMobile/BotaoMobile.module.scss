@@ -1,0 +1,112 @@
+.botaomobile {
+  width: 39.13px;
+  height: 32.95px;
+  background-color: #edf126;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3.08919px;
+  position: relative;
+
+  .navlist {
+    width: 18.54px;
+    height: 12.36px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+
+    cursor: pointer;
+    div {
+      height: 2px;
+      background-color: #1c1b1f;
+    }
+
+    .line1 {
+      width: 45%;
+    }
+
+    .line2 {
+      width: 75%;
+    }
+
+    .line3 {
+      width: 100%;
+    }
+  }
+
+  .menumobile {
+    width: 36.69064748201439vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    background-color: #68e1ec;
+    top: 0;
+    transition: all 1s ease;
+    z-index: 999;
+
+    .headerMenuMobile {
+      width: 100%;
+      height: 58px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      .navlist {
+        width: 28px;
+        height: 28px;
+        padding: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #edf126;
+        position: absolute;
+        left: 28px;
+        top: center;
+        border-radius: 3.08919px;
+
+        cursor: pointer;
+
+        .line1 {
+          width: 100%;
+          transform: rotate(-45deg) translate(-1px, 1px);
+        }
+
+        .line2 {
+          width: 100%;
+          transform: rotate(45deg) translate(-2px, -3px);
+        }
+      }
+    }
+    .menuLinks {
+      width: 100%;
+      height: 33vh;
+      margin-top: 83px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 20px;
+      line-height: 23px;
+      .menuItem {
+        width: 162px;
+        display: flex;
+        justify-content: flex-start;
+        letter-spacing: -0.7px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .menumobile {
+      width: 72.85714285714285vw;
+    }
+  }
+
+  .socialIcons {
+    width: 100%;
+  }
+}

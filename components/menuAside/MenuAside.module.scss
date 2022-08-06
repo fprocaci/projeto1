@@ -1,0 +1,13 @@
+.menuAside {
+    grid-area: menuAside;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width:834.23px) {
+    .menuAside{
+        display: none;
+    } 
+}
+

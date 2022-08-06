@@ -1,0 +1,13 @@
+.navmobile {
+  display: none;
+}
+@media screen and (max-width: 834.23px) {
+  .navmobile {
+    grid-area: navmobile;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0 17px;
+  }
+}

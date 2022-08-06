@@ -1,0 +1,8 @@
+.mainContent {
+    grid-area: main;
+    background-color: #F6F6F6;
+    
+    @media(max-width: 834.23px){
+        background-color: #FFFFFF;
+    }
+}
