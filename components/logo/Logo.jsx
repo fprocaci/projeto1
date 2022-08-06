@@ -12,7 +12,7 @@ export default function Logo(props) {
       <div className={styles.logomobile}>
         <Image
           src="/images/Logo.svg"
-          alt=""
+          alt="Logo"
           width={185.28}
           height={66.34}
         ></Image>
@@ -21,7 +21,12 @@ export default function Logo(props) {
   } else if (props.menu) {
     return (
       <div className={styles.logoMenuMobile}>
-        <Image src="/images/Logo.svg" alt="" width={162} height={58}></Image>
+        <Image
+          src="/images/Logo.svg"
+          alt="Logo"
+          width={162}
+          height={58}
+        ></Image>
       </div>
     );
   }

@@ -12,7 +12,7 @@ export default function SideL() {
         <span>design.</span>
       </div>
       <div className={styles.image}>
-        <Image src="/images/young.png" width={409} height={495} />
+        <Image src="/images/young.png" alt="Math" width={409} height={495} />
       </div>
     </div>
   );
