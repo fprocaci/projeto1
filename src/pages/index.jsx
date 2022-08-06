@@ -22,7 +22,6 @@ export default function Home() {
       <MainContent />
       <SideL />
       <SideR />
-      <Script src="/" />
     </div>
   );
 }
