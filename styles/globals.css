@@ -1,8 +1,8 @@
 html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #e5e5e5;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe   UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #E5E5E5;
   overflow-x: hidden;
 }
 
@@ -11,9 +11,9 @@ a {
   text-decoration: none;
 }
 
-ul,
-li {
+ul,li {
   list-style: none;
+
 }
 
 * {
